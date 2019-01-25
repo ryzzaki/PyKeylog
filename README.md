@@ -1,12 +1,16 @@
 # PyKeylog
 <b> A simple Python Keylogger. </b>
 
-Install the required libraries: <br>
-<i> pip install -r requirements.txt <i>
+Install the required libraries:
+<br>
+<i> pip install -r requirements.txt </i>
+</br>
 <br>
   <b> A simple Keylogger written in Python using the Pynput library and SMTP/Gmail API </b>
+</br>
   <br>
   <b> Functions and future implementations</b>
+  </br>
   <br>
   <ul>
     <li>Record keystrokes</li>
@@ -16,3 +20,4 @@ Install the required libraries: <br>
     <li>Improve formatting options for better readability</li>
     <li>Add an option to track mouse controls</li>
   </ul>
+  </br>
