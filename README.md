@@ -17,7 +17,10 @@ Install the required libraries:
     <li>Send the "src/keystrokes.txt" as an attachment in an email using SMTP/Gmail API</li>
     <li>Run autostart in Windows by editing regedit</li>
     <li>Add an option to run in an invisible mode</li>
-    <li>Improve formatting options for better readability</li>
+    <li>Improve formatting for better readability using datetime</li>
     <li>Add an option to track mouse controls</li>
+    <li>Add a saving option when internet is not available - send later + check for saved files</li>
+    <li>Add a remote self destruct function from an email server command</li>
+    <li>Add a remote self destruct function from a Telegram bot</li>
   </ul>
   </br>
