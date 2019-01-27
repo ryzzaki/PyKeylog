@@ -6,7 +6,7 @@ Install the required libraries:
 <i> pip install -r requirements.txt </i>
 </br>
 <br>
-  <b> A simple Keylogger written in Python using the Pynput library and SMTP/Gmail API </b>
+  <b> Written in Python using the Pynput library and SMTP/Gmail API </b>
 </br>
   <br>
   <b> Functions and future implementations</b>
